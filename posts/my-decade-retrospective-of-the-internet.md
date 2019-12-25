@@ -1,7 +1,7 @@
 ---
 title: My decade retrospective of the internet
-description: A nostalgic look back at everything that happened on the internet in the last 10 years.
-date: 2020-01-01
+description: A nostalgic look back at everything that happened on the internet in the last 10 years through the eyes my childhood.
+date: 2019-12-25
 tags:
   - internet
   - childhood
@@ -19,10 +19,12 @@ Five years ago, I was applying for university and had to write [a personal state
 It’s almost 2020 — the end of a decade — I’m about to be 20 and I’ve (hopefully) grown a lot in the past 10 years. Looking back, I now see how much the internet changed at the same time. My childhood was mostly centered around the internet, sometimes feeling like it was my only raison d’être: I probably had more online friends than real life ones. Anyway, I thought it’d be interesting to provide my retrospective of the internet through the things I’ve achieved and the people I’ve met. This post has a big nostalgic vibe to it, but I’m particularly proud of what the last decade has been for me.
 
 # The web stack
-![MetroStart, one of my first startpages](http://web.archive.org/web/20170925151536im_/http://t02.deviantart.net/nb5yZZAgzXWPn0gnQ_nZeZN1xJU=/fit-in/150x150/filters:no_upscale():origin()/pre13/db70/th/pre/i/2012/054/5/9/metrostart_by_ntim007-d4pa2q3.png)
+<figure class="float-right">
+<img src="http://web.archive.org/web/20170925151536im_/http://t02.deviantart.net/nb5yZZAgzXWPn0gnQ_nZeZN1xJU=/fit-in/150x150/filters:no_upscale():origin()/pre13/db70/th/pre/i/2012/054/5/9/metrostart_by_ntim007-d4pa2q3.png" alt="MetroStart, one of my first startpages"/>
+<figcaption>MetroStart, one of my first startpages</figcaption>
+</figure>
 
-
-The personal statement quote first mentions start pages made using Microsoft Word. Start pages are web pages that you set as your homepage with a couple of links. While Microsoft Word might sound like a surprising choice for developing web pages, the bar for website authoring was quite high at the time. The software I found was either commercial (e.g. [Adobe Dreamweaver](https://en.wikipedia.org/wiki/Adobe_Dreamweaver)) or difficult to use. As for learning how to code, it was a bit out of my league and I recall having trouble understanding the [available](https://www.w3schools.com/) [resources](https://developer.mozilla.org/). Online website creators like [Webs](https://www.webs.com/) or [Netvibes](https://www.netvibes.com/) — while easy to use — did not provide enough flexibility in terms of the content you could add but I would recommend those to my mom to build her own site.
+The personal statement quote first mentions start pages made using Microsoft Word. Start pages are web pages with quick links that you set as your homepage. While Microsoft Word might sound like a surprising choice for developing web pages, the bar for website authoring was quite high at the time. The software I found was either commercial (e.g. [Adobe Dreamweaver](https://en.wikipedia.org/wiki/Adobe_Dreamweaver)) or difficult to use. As for learning how to code, it was a bit out of my league and I recall having trouble understanding the [available](https://www.w3schools.com/) [resources](https://developer.mozilla.org/). Online website creators like [Webs](https://www.webs.com/) or [Netvibes](https://www.netvibes.com/) — while easy to use — did not provide enough flexibility in terms of the content you could add but I would recommend those to my mom to build her own site.
 Luckily, Microsoft Word had a web mode that allowed you to export a document as an HTML file, which made making a website as easy and flexible as making a Word document.
 
 When I joined [deviantART](https://www.deviantart.com/) in 2011 to find and post startpages, I looked at the code others had written and realized Microsoft Word was generating a lot of junk. This led me to start learning coding along with a few folks I had met on deviantART. Taskin Forkan ([daKoder](https://www.deviantart.com/dakoder/)/Prplninja) was one of them, he was around the same age and originated from the New York Area. We had developed an online dashboard together — that had evolved into an online desktop — named [Altaica](http://altaica.altervista.org). Conceiving, developing and designing Altaica together was an amazing learning experience. We both learnt [jQuery](https://jquery.com/)/[jQuery UI](https://jqueryui.com/) while I actively opposed using the [Bootstrap framework](https://getbootstrap.com/) since it was a lot of unnecessary code. Both of these frameworks were the state of the art as they made web APIs much easier to leverage. jQuery has since died off as newer DOM and JS APIs were introduced to fill the gap (Github wrote a great post on how they [removed jQuery from their front-end](https://github.blog/2018-09-06-removing-jquery-from-github-frontend/)).
@@ -30,7 +32,10 @@ When I joined [deviantART](https://www.deviantart.com/) in 2011 to find and post
 Another technology we attempted to add to our online desktop was logging in to save user data on the cloud and make it more useful to users. This required server-side development, which we both had a small understanding of. We attempted to add a login system using PHP — popular at the time — but the stack evolved so quickly with newer technologies coming around that we never actually got around to learning it. Nowadays, the server-side stack has gotten even easier with adding a login system being as simple as following a [15 minute AWS Amplify tutorial](https://learn.acloud.guru/course/coding-for-cloud-101/dashboard). Hosting would be provided for free by [Altervista](https://en.altervista.org/) — a site simobortolo on deviantART showed me — and deploying those websites would be done with FTP. Nowadays, those two tasks are done with automatic solutions like [Heroku](https://www.heroku.com/).
 
 
-![20-year old commit message from the Mozilla source code](https://pbs.twimg.com/media/EHbhN-tWkAE9KPn?format=jpg&name=large)
+<figure class="float-right">
+<img src="https://pbs.twimg.com/media/EHbhN-tWkAE9KPn?format=jpg&name=large" alt="20-year old commit message from the Mozilla source code"/>
+<figcaption>20-year old commit message from the Mozilla source code</figcaption>
+</figure>
 
 
 Contributing to the Firefox front-end has also been a very enriching experience, as I got to learn how a large codebase like Firefox’s deals with 20-year old technologies while still being able to evolve everyday. I learnt to use [React](https://reactjs.org/), a framework made by Facebook in 2013 that Firefox DevTools had started using instead of the [legacy XUL](https://developer.mozilla.org/docs/Archive/Mozilla/XUL). React aimed to solve single page application design with [Vue.js framework](https://vuejs.org/) being its main competitor. I had also contributed to the [XBL replacement work](https://bgrins.github.io/xbl-analysis/) in Firefox that [finished last October](https://briangrinstead.com/blog/firefox-webcomponents/). This was done with the [web components spec](https://developer.mozilla.org/docs/Web/Web_Components) — making the need for frameworks questionable — especially when compatibility with older browsers isn’t an issue. If there’s something to take away from frameworks on the web, is that they come and go, with web standards never dying off.
@@ -51,8 +56,10 @@ I had also met many digital artists through Google+ communities, where many UI d
 
 Firefox also had a large customization ecosystem, it supported add-ons, userstyles and complete themes. My first XUL overlay add-on — then converted to Jetpack — was a simple button that leveraged the now defunct YouRepeat service. Customization was time consuming but it was very satisfying once you were done. Three years ago, my Firefox setup looked like this:
 
-![](https://i.imgur.com/qTPek3k.jpg)
-![](https://i.imgur.com/u2e7OZc.png)
+<div class="flex">
+  <img src="https://i.imgur.com/qTPek3k.jpg" class="grow">
+  <img src="https://i.imgur.com/u2e7OZc.png" class="grow">
+</div>
 
 
 Point being, there was a big culture of software customization at the time. Some even made some revenue from their themes like for the [Deep Dark themes](http://stefrosselli.com/en/themes). However, this culture slowly died off, along with the customization community on deviantART and Google+. Firefox legacy extensions and themes both became obsolete with Firefox 57, a move that enabled removing legacy code (XUL/XPCOM). Despite that, there are still some subreddits remaining like [r/Unixporn](http://reddit.com/r/Unixporn), [r/FirefoxCSS](http://reddit.com/r/firefoxcss) or [r/androidthemes](https://www.reddit.com/r/androidthemes/) (Thank you Omkar for showing me that last one!), but those are a regular time investment due to needing to keep up with the more frequent software updates.
@@ -79,19 +86,22 @@ Faster update cycles might now be obvious today, but it is quite radical how the
 
 One thing that characterized this decade is the loss of product diversity on the internet, which led to the domination of the web by large companies. Exactly 9 years ago, I built my own search engine called [SmartSearch](http://smartsearch.altervista.org). The idea was largely copied from [Maxthon Multi Search](http://s.maxthon.com/): both sites allowed you to easily compare results from different search engines. While the idea by itself wasn’t super useful, my 10 year old mind somehow had an obsession in knowing all the search engines that existed out there, which is how I discovered Maxthon Multi Search. The Chinese web browser originally provided their feature [as a separate website](http://s.maxthon.com/) similarly to SmartSearch and later built-in the feature into Maxthon 3.
 
-![Maxthon multi search in Maxthon 3](https://www.maxthon.com/mx3/help/images/3-9-2.png)
+<img alt="Maxthon multi search in Maxthon 3" src="https://www.maxthon.com/mx3/help/images/3-9-2.png" class="float-right" style="max-width: 40%">
 
 
 Maxthon’s [main pitch for the multi search](https://www.youtube.com/watch?v=5e2_njWFAKM) feature was being able to compare results across engines which may be useful to compare prices between different shopping search engines like Amazon or ebay. This feature is no longer present in the latest version of the web browser, presumably because the need for comparing has slowly faded away. This may show two things, the slow monopolization of search engines (Google for search, Amazon for shopping) but also Google’s aggregated information display reducing the need of browsing the sites themselves. While this does provide a lot of convenience, it does also seem scary for the health of the internet.
 
 However, while developing SmartSearch, I was able to leverage open data from [DuckDuckGo’s instant answers API](https://duckduckgo.com/api) from which I made [a small library](https://github.com/nt1m/InfoCards.js). It provides Google-style knowledge card data when searching for terms. Seeing alternatives to Google openly sharing their results gives me hope for the health of the internet. DuckDuckGo’s results are in fact provided by Bing just like Ecosia’s results are, which is a great initiative from Microsoft.
 
-![Integration of DDG’s instant answers API in SmartSearch](https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1576827611703_image.png)
+<figure>
+<img src="https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1576827611703_image.png" alt="Integration of DDG’s instant answers API in SmartSearch"/>
+<figcaption>Integration of DDG’s instant answers API in SmartSearch</figcaption>
+</figure>
 
-
-
-![The gorgeous former Mozilla Paris office](https://farm4.staticflickr.com/3680/9054730095_dae56e86e6_z.jpg)
-
+<figure class="float-right">
+<img src="https://farm4.staticflickr.com/3680/9054730095_dae56e86e6_z.jpg" alt="The gorgeous former Mozilla Paris office"/>
+<figcaption>The former Mozilla Paris office</figcaption>
+</figure>
 
 Another story relating to product diversity was the rise and fall of Firefox OS six years ago. It was Mozilla’s attempt at making a strong mobile competitor to Android and iOS. The idea was pretty neat: the web was the platform and apps were websites. Since Mozilla was doing a large company-wide push on Firefox OS at the time, I got invited by [Paul Rouget](https://github.com/paulrouget) to the Mozilla Paris office, from which I brought home a [Firefox OS Flame](https://developer.mozilla.org/en-US/docs/Archive/B2G_OS/Phone_guide/Flame) device to help report bugs. I remember using it as my daily driver where I’d flash the latest beta builds to try them out.
 
@@ -111,7 +121,10 @@ His experience, in my opinion, also questions some classic methods of teaching, 
 Finally, the development of online content creators started around 10 years ago with the help of platforms like YouTube or Instagram. I remember my sister first showing me [Ryan Higa](https://www.youtube.com/user/nigahiga)’s videos and discovering most French YouTubers I follow today back then.
 
 
-![Brexit advertisement in Bristol from October 2019 which still hasn’t happened](https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1577160678318_image.png)
+<figure class="float-right">
+<img src="https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1577160678318_image.png" alt="There are fewer than 20 days to prepare for Brexit"/>
+<figcaption>Brexit advertisement in Bristol from October 2019 which still hasn’t happened</figcaption>
+</figure>
 
 
 Overall, I think it’s amazing how the internet enabled a new generation to live from their passion. However, this last decade was also marked by political turmoil. The UK got into this Brexit mess and Trump got elected, partially due to internet fake news or bots that led to indirect election meddling targeting older generations, widening the pre-existing generational gap. Hopefully, the future will see more legislation correcting this, like [Twitter’s recent move to ban political ads](https://twitter.com/jack/status/1189634360472829952).
