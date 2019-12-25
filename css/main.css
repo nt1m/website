@@ -171,12 +171,15 @@ header {
 }
 
 #social-media-twitter {
+  -webkit-mask-image: url(/assets/twitter.svg);
   mask-image: url(/assets/twitter.svg);
 }
 #social-media-linkedin {
+  -webkit-mask-image: url(/assets/linkedin.svg);
   mask-image: url(/assets/linkedin.svg);
 }
 #social-media-github {
+  -webkit-mask-image: url(/assets/github.svg);
   mask-image: url(/assets/github.svg);
 }
 
