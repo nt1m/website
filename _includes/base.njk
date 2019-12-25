@@ -12,7 +12,7 @@
   <body>
     <header>
       <div class="nav-wrapper">
-        <span class="title">ntim's</span>
+        <a href="#" class="title">ntim's</a>
 
         {#- See https://github.com/11ty/eleventy-navigation #}
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
@@ -23,15 +23,9 @@
         }) | safe }}
       </div>
       <div class="social-media">
-        <a class="social-media-link" title="Github" href="https://github.com/nt1m">
-          <img src="/assets/github.svg"/>
-        </a>
-        <a class="social-media-link" title="Twitter" href="https://twitter.com/therealntim">
-          <img src="/assets/twitter.svg"/>
-        </a>
-        <a class="social-media-link" title="LinkedIn" href="https://www.linkedin.com/in/n-tim">
-          <img src="/assets/linkedin.svg"/>
-        </a>
+        <a class="social-media-link" id="social-media-github" title="Github" href="https://github.com/nt1m"></a>
+        <a class="social-media-link" id="social-media-twitter" title="Twitter" href="https://twitter.com/therealntim"></a>
+        <a class="social-media-link" id="social-media-linkedin" title="LinkedIn" href="https://www.linkedin.com/in/n-tim"></a>
       </div>
     </header>
 

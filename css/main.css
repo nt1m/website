@@ -31,9 +31,10 @@ body {
 }
 
 body {
-  margin: auto;
-  max-width: 800px;
+  max-width: 850px;
+  margin: 0 auto;
   padding: 0 1em;
+  padding-bottom: 4em;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -54,6 +55,13 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  border-left: 2px solid;
+  margin-left: 0;
+  padding-left: 2em;
+  font-style: italic;
+}
+
 /** Header **/
 
 header {
@@ -66,6 +74,7 @@ header {
 .nav-wrapper {
   float: left;
   padding-left: 0;
+  padding-bottom: 0.8em;
 }
 .nav {
   margin: 0;
@@ -75,10 +84,14 @@ header {
   flex-direction: column;
 }
 .nav-wrapper .title {
+  cursor: default;
+  color: inherit !important;
+  text-decoration: none;
   margin-inline-end: 1em;
 }
 .nav-item {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   transition: transform 0.1s;
   overflow: hidden;
   text-transform: uppercase;
@@ -95,12 +108,14 @@ header {
 .nav-item-active {
   order: -1;
   font-weight: bold;
-  pointer-events: none;
 }
-.nav-item-active a::after {
-  content: url(../assets/arrow-dropdown.svg);
+.nav-item-active::after {
+  content: "";
+  -webkit-mask: url(../assets/arrow-dropdown.svg) no-repeat center;
+  mask: url(../assets/arrow-dropdown.svg) no-repeat center;
+  background-color: currentColor;
   display: inline-block;
-  margin-inline-start: 1em;
+  margin-inline-start: 1ch;
   height: 1em;
   width: 1em;
   pointer-events: none;
@@ -117,23 +132,28 @@ header {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  color: inherit;
+  color: inherit !important;
   margin-inline-start: 1em;
-}
-
-.social-media-link > img {
-  display: inline-block;
+  margin-bottom: 1em;
   width: 1.5em;
   height: 1.5em;
-  margin: auto;
-  margin-bottom: 1em;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: currentColor;
 }
 
-@media (prefers-color-scheme: dark) {
-  .nav-item-active a::after,
-  .social-media-link > img {
-    filter: invert(1);
-  }
+#social-media-twitter {
+  mask-image: url(/assets/twitter.svg);
+}
+#social-media-linkedin {
+  mask-image: url(/assets/linkedin.svg);
+}
+#social-media-github {
+  mask-image: url(/assets/github.svg);
 }
 
 /** Posts **/
@@ -163,14 +183,15 @@ header {
   font-weight: 700;
 }
 .postlist-link[target="_blank"]::after {
-  content: url(../assets/open-in-new.svg);
+  content: "";
+  -webkit-mask: url(../assets/open-in-new.svg) no-repeat center;
+  mask: url(../assets/open-in-new.svg) no-repeat center;
+  background-color: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
   vertical-align: middle;
-  margin-left: 1ch;
-}
-@media (prefers-color-scheme: dark) {
-  .postlist-link[target="_blank"]::after {
-    filter: invert(1);
-  }
+  margin-left: .5ch;
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
