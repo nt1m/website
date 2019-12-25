@@ -1,13 +1,13 @@
 {
   "title": "ntim's blog",
-  "url": "https://nt1m.github.io",
+  "url": "https://ntim.ml",
   "description": "Thoughts about humans and tech.",
   "feed": {
     "subtitle": "Thoughts about humans and tech.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://nt1m.github.io/feed/feed.xml",
-    "id": "https://nt1m.github.io/"
+    "url": "https://ntim.ml/feed/feed.xml",
+    "id": "https://ntim.ml/"
   },
   "author": {
     "name": "Tim Nguyen",
