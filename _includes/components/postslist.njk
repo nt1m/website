@@ -1,0 +1,35 @@
+<ul class="postlist">
+{% for post in postslist | reverse %}
+  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+    <div class="postlist-metadata">
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </div>
+
+    {% if post.data.externalLink %}
+    {% set actualUrl %}{{ post.data.externalLink }}{% endset %}
+    {% else %}
+    {% set actualUrl %}{{ post.url }}{% endset %}
+    {% endif %}
+
+    <a href="{{ actualUrl | url }}" class="postlist-link" {% if post.data.externalLink %}target="_blank"{% endif %}>
+      {% if post.data.title %}
+        {{ post.data.title }}
+        {% else %}<code>{{ actualUrl }}</code>
+      {% endif %}
+    </a>
+
+    {% if post.data.description %}
+    <p class="postlist-description">{{ post.data.description }}</p>
+    {% endif %}
+
+    <div class="postlist-tags">
+    {% for tag in post.data.tags %}
+      {%- if tag != "posts" -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+  </li>
+{% endfor %}
+</ul>

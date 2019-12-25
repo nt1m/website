@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "ntim's blog",
+  "url": "https://nt1m.github.io",
+  "description": "Thoughts about humans and tech.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Thoughts about humans and tech.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://nt1m.github.io/feed/feed.xml",
+    "id": "https://nt1m.github.io/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Tim Nguyen",
+    "email": "ntim.mail@gmail.com"
   }
 }

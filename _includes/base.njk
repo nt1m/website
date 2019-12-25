@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrapper">
+        <span class="title">ntim's</span>
+
+        {#- See https://github.com/11ty/eleventy-navigation #}
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+          listClass: "nav",
+          listItemClass: "nav-item",
+          activeListItemClass: "nav-item-active",
+          activeKey: eleventyNavigationActiveKey or eleventyNavigation.key
+        }) | safe }}
+      </div>
+      <div class="social-media">
+        <a class="social-media-link" title="Github" href="https://github.com/nt1m">
+          <img src="/assets/github.svg"/>
+        </a>
+        <a class="social-media-link" title="Twitter" href="https://twitter.com/therealntim">
+          <img src="/assets/twitter.svg"/>
+        </a>
+        <a class="social-media-link" title="LinkedIn" href="https://www.linkedin.com/in/n-tim">
+          <img src="/assets/linkedin.svg"/>
+        </a>
+      </div>
+    </header>
+
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
