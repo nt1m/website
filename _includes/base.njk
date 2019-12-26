@@ -34,20 +34,21 @@
       {{ content | safe }}
     </main>
 
+{% if not hideFooter %}
     <footer class="flex">
-        <div class="grow">
-          <h1>About me</h1>
-<p>
+      <div class="grow">
+        <h1>About me</h1>
+        <p>
 I am <em>Tim Nguyen</em>, a computer science student at the <a href="https://www.bristol.ac.uk/">University of Bristol</a>.
-</p>
-<p>
+        </p>
+        <p>
 My interests include food, design, programming and web development. I also
 sometimes travel, bike or hike.
-</p>
-        </div>
-        <img src="{{ '/assets/profile-picture.jpg' | url }}">
+        </p>
       </div>
+      <img src="{{ '/assets/profile-picture.jpg' | url }}">
     </footer>
+{% endif %}
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

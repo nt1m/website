@@ -122,7 +122,7 @@ header {
   text-transform: uppercase;
   transition: all 0.3s;
 }
-.nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.nav-item-active) {
+body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.nav-item-active) {
   transform: scaleY(0);
   opacity: 0;
 }
