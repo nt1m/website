@@ -33,6 +33,21 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+
+    <footer class="flex">
+        <div class="grow">
+          <h1>About me</h1>
+<p>
+I am <em>Tim Nguyen</em>, a computer science student at the <a href="https://www.bristol.ac.uk/">University of Bristol</a>.
+</p>
+<p>
+My interests include food, design, programming and web development. I also
+sometimes travel, bike or hike.
+</p>
+        </div>
+        <img src="{{ '/assets/profile-picture.jpg' | url }}">
+      </div>
+    </footer>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

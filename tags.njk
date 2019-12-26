@@ -10,11 +10,12 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: page.njk
+layout: base.njk
 renderData:
   title: Posts tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
 eleventyNavigationActiveKey: Blog
+templateClass: tmpl-postslist
 ---
 <h1>Posts tagged “{{ tag }}”</h1>
 

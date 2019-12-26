@@ -6,6 +6,7 @@
   --background-color: #fff;
   --link-color: #082840;
   --link-color-visited: #9248c8;
+  --border-color: rgba(128, 128, 128, 0.25);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +35,7 @@ body {
   max-width: 850px;
   margin: 0 auto;
   padding: 0 1em;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -191,8 +192,8 @@ header {
   display: block;
   padding-bottom: 2em;
 }
-.tmpl-home .postlist-item:not(:last-child) {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+:not(.tmpl-post) .postlist-item:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 1.25em;
 }
 .postlist-description {
@@ -238,4 +239,30 @@ header {
 
 .tag:not(:first-child) {
   margin-left: 1ch;
+}
+
+/** Footer **/
+footer {
+  padding: 1.5em 0;
+  overflow: auto;
+  border-top: 1px solid var(--border-color);
+}
+:not(.tmpl-postslist) + footer {
+  margin-top: 4em;
+}
+footer h1 {
+  margin-top: 0;
+  font-size: 1.1875em;
+  text-transform: uppercase;
+}
+footer em {
+  font-style: normal;
+  font-weight: bold;
+}
+footer img {
+  border-radius: 100%;
+  width: 7em;
+  margin-left: 1em;
+  margin-top: 1em;
+  flex-shrink: 0;
 }

@@ -3,6 +3,7 @@
   --background-color: #286ba0;
   --link-color: #fff;
   --link-color-visited: rgba(255,255,255,0.8);
+  --border-color: rgba(255,255,255,0.2);
 }
 
 body {
@@ -41,4 +42,9 @@ h1 {
 }
 .tile-description {
   font-size: 0.8em;
+}
+
+footer {
+  padding-top: 0;
+  border-top: none;
 }
