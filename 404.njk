@@ -1,0 +1,36 @@
+---
+layout: base.njk
+permalink: /404.html
+hideFooter: true
+eleventyExcludeFromCollections: true
+---
+<h1>404 Not Found</h1>
+
+Return <a href="{{ '/' | url }}">home</a>
+<span id="show-only-for-hover" hidden> or
+  <button id="magic-button">click this button</button>
+</span>
+.
+
+<style>
+.not-found {
+  overflow: hidden;
+}
+@media (any-hover: hover) {
+  #show-only-for-hover {
+    display: inline;
+  }
+}
+</style>
+<script>
+document.body.classList.add("not-found");
+let magicButton = document.getElementById("magic-button");
+magicButton.addEventListener("mousemove", (e) => {
+  magicButton.style.position = "absolute";
+  magicButton.style.top = (Math.random() * (window.innerHeight - magicButton.clientWidth)) + "px";
+  magicButton.style.left = (Math.random() * (window.innerWidth - magicButton.clientHeight)) + "px";
+});
+magicButton.addEventListener("click", (e) => {
+  magicButton.hidden = true;
+});
+</script>
