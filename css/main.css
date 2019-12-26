@@ -92,7 +92,7 @@ header {
   overflow: auto;
 }
 .nav-wrapper,
-.social-media {
+.media-links {
   padding: 1.5em 1.4vw;
 }
 .nav-wrapper {
@@ -147,12 +147,12 @@ header {
 
 /** Social links **/
 
-.social-media {
+.media-links {
   float: right;
   padding-right: 0;
 }
 
-.social-media-link {
+.media-link {
   display: inline-block;
   text-decoration: none;
   color: inherit !important;
@@ -169,15 +169,15 @@ header {
   background-color: currentColor;
 }
 
-#social-media-twitter {
+#media-twitter {
   -webkit-mask-image: url(/assets/twitter.svg);
   mask-image: url(/assets/twitter.svg);
 }
-#social-media-linkedin {
+#media-linkedin {
   -webkit-mask-image: url(/assets/linkedin.svg);
   mask-image: url(/assets/linkedin.svg);
 }
-#social-media-github {
+#media-github {
   -webkit-mask-image: url(/assets/github.svg);
   mask-image: url(/assets/github.svg);
 }
