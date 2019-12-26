@@ -123,7 +123,7 @@ Finally, the development of online content creators started around 10 years ago 
 
 <figure class="float-right">
 <img src="https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1577160678318_image.png" alt="There are fewer than 20 days to prepare for Brexit"/>
-<figcaption>Brexit advertisement in Bristol from October 2019 which still hasn’t happened</figcaption>
+<figcaption>Brexit advertisement in Bristol from October 2019, which still hasn’t happened</figcaption>
 </figure>
 
 

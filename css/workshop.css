@@ -5,12 +5,10 @@
   --link-color-visited: rgba(255,255,255,0.8);
   --border-color: rgba(255,255,255,0.2);
 }
-
 body {
 	background-image: radial-gradient(ellipse 100% 80% at bottom right, hsla(300, 100%, 62%, .2), hsla(300, 100%, 62%, 0)), radial-gradient(circle, #3992ca, #19497a);
   background-attachment: fixed;
 }
-
 h1 {
 	color: rgba(255,255,255,0.8);
 }
@@ -27,7 +25,6 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1em;
 }
-
 .tile {
   display: block;
   background-color: rgba(255,255,255,0.15);
@@ -35,16 +32,10 @@ h1 {
   overflow: hidden;
   min-width: 0;
 }
-
 .tile-title {
   display: block;
   font-weight: 600;
 }
 .tile-description {
   font-size: 0.8em;
-}
-
-footer {
-  padding-top: 0;
-  border-top: none;
 }
