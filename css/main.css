@@ -154,10 +154,9 @@ header {
 
 .social-media-link {
   display: inline-block;
-  text-align: center;
   text-decoration: none;
   color: inherit !important;
-  margin-inline-start: 1em;
+  margin-left: 1em;
   margin-bottom: 1em;
   width: 1.5em;
   height: 1.5em;
