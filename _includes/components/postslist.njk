@@ -3,6 +3,10 @@
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <div class="postlist-metadata">
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      {% if not post.data.externalLink %}
+      <span class="dot-separator">·</span>
+      <span>{{ post | readingTime}}</span>
+      {% endif %}
     </div>
 
     {% if post.data.externalLink %}

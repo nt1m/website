@@ -199,7 +199,7 @@ body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.
 .postlist-description {
   margin: 0.5em 0;
 }
-.postlist-date {
+.postlist-metadata {
   font-size: 0.8125em;
 }
 .postlist-link {
@@ -222,6 +222,9 @@ body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
+}
+.dot-separator {
+  margin: 0 1ch;
 }
 
 
