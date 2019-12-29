@@ -56,6 +56,10 @@ blockquote {
 figure {
   margin-left: 0;
   margin-right: 0;
+  text-align: center;
+}
+figcaption {
+  font-style: italic;
 }
 .flex {
   display: flex;
@@ -68,8 +72,7 @@ figure {
 }
 figure.float-left,
 figure.float-right {
-  min-width: 100px;
-  max-width: 25%;
+  max-width: 30%;
   margin: 1em;
 }
 

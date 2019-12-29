@@ -12,7 +12,7 @@ layout: post.njk
 Five years ago, I was applying for university and had to write [a personal statement](https://www.ucas.com/undergraduate/applying-university/how-write-ucas-undergraduate-personal-statement) to distinguish myself from other candidates. What led me to write this blog post was the following section:
 
 
-> At the age of nine, I used to make startpages using Microsoft Word so my mother could easily access her links. A year later, I looked for better ones online, and found one on deviantART that I downloaded. I got curious about how it worked, so I explored the HTML code and got thrown into the amazing world of web development and web design! That deviantART online community has been a great place of exchange where I got to collaborate and interact with different computer enthusiasts, coders and digital artists, on various projects […]
+> At the age of nine, I used to make startpages using Microsoft Word so my mother could easily access her links. A year later, I looked for better ones online, and found one on deviantART that I downloaded. I got curious about how it worked, so I explored the HTML code and got thrown into the amazing world of web development and web design! That deviantART online community has been a great place of exchange where I got to collaborate and interact with different computer enthusiasts, coders and digital artists, on various projects. […]
 
 — An overly enthusiastic 15 year-old me applying for university
 
@@ -20,7 +20,7 @@ It’s almost 2020 — the end of a decade — I’m about to be 20 and I’ve (
 
 # The web stack
 <figure class="float-right">
-<img src="https://web.archive.org/web/20170925151536im_/http://t02.deviantart.net/nb5yZZAgzXWPn0gnQ_nZeZN1xJU=/fit-in/150x150/filters:no_upscale():origin()/pre13/db70/th/pre/i/2012/054/5/9/metrostart_by_ntim007-d4pa2q3.png" alt="MetroStart, one of my first startpages"/>
+<img src="../assets/my-decade-retrospective-of-the-internet/metrostart.png" alt="MetroStart, one of my first startpages"/>
 <figcaption>MetroStart, one of my first startpages</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Another technology we attempted to add to our online desktop was logging in to s
 
 
 <figure class="float-right">
-<img src="https://pbs.twimg.com/media/EHbhN-tWkAE9KPn?format=jpg&name=large" alt="20-year old commit message from the Mozilla source code"/>
+<img src="../assets/my-decade-retrospective-of-the-internet/20-year-old-commit-message.jpg" alt="Added the ability to drag splitters. If any build problems call me at: 650 224-0620"/>
 <figcaption>20-year old commit message from the Mozilla source code</figcaption>
 </figure>
 
@@ -55,8 +55,8 @@ When I joined deviantART in 2011, I originally found [this start page](https://w
 Firefox also had a large customization ecosystem, it supported add-ons, userstyles and complete themes. My first XUL overlay add-on — then converted to Jetpack — was a simple button that leveraged the now defunct YouRepeat service. Customization was time consuming but it was very satisfying once you were done. Three years ago, my Firefox setup looked like this:
 
 <div class="flex">
-  <img src="https://i.imgur.com/qTPek3k.jpg" class="grow">
-  <img src="https://i.imgur.com/u2e7OZc.png" class="grow">
+  <img src="../assets/my-decade-retrospective-of-the-internet/custom-firefox-1.jpg" class="grow">
+  <img src="../assets/my-decade-retrospective-of-the-internet/custom-firefox-2.png" class="grow">
 </div>
 
 
@@ -84,7 +84,7 @@ Faster update cycles might now be obvious today, but it is quite radical how the
 
 One thing that characterized this decade is the loss of product diversity on the internet, which led to the domination of the web by large companies. Exactly 9 years ago, I built my own search engine called [SmartSearch](http://smartsearch.altervista.org). The idea was largely copied from [Maxthon Multi Search](http://s.maxthon.com/): both sites allowed you to easily compare results from different search engines. While the idea by itself wasn’t super useful, my 10 year old mind somehow had an obsession in knowing all the search engines that existed out there, which is how I discovered Maxthon Multi Search. The Chinese web browser originally provided their feature [as a separate website](http://s.maxthon.com/) similarly to SmartSearch and later built-in the feature into Maxthon 3.
 
-<img alt="Maxthon multi search in Maxthon 3" src="https://www.maxthon.com/mx3/help/images/3-9-2.png" class="float-right" style="max-width: 40%">
+<img alt="Maxthon multi search in Maxthon 3" src="../assets/my-decade-retrospective-of-the-internet/multi-search.png" class="float-right" style="max-width: 40%">
 
 
 Maxthon’s [main pitch for the multi search](https://www.youtube.com/watch?v=5e2_njWFAKM) feature was being able to compare results across engines which may be useful to compare prices between different shopping search engines like Amazon or ebay. This feature is no longer present in the latest version of the web browser. This may show two things, the slow monopolization of search engines (Google for search, Amazon for shopping) but also Google’s aggregated information display reducing the need of browsing the sites themselves. While this does provide a lot of convenience, it does also seem scary for the health of the internet.
@@ -92,12 +92,12 @@ Maxthon’s [main pitch for the multi search](https://www.youtube.com/watch?v=5e
 However, while developing SmartSearch, I was able to leverage open data from [DuckDuckGo’s instant answers API](https://duckduckgo.com/api) from which I made [a small library](https://github.com/nt1m/InfoCards.js). It provides Google-style knowledge card data when searching for terms. Seeing alternatives to Google openly sharing their results gives me hope for the health of the internet. DuckDuckGo’s results are in fact provided by Bing just like Ecosia’s results are, which is a great initiative from Microsoft.
 
 <figure>
-<img src="https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1576827611703_image.png" alt="Integration of DDG’s instant answers API in SmartSearch"/>
+<img src="../assets/my-decade-retrospective-of-the-internet/duckduckgo-smartsearch.png" alt="Integration of DDG’s instant answers API in SmartSearch"/>
 <figcaption>Integration of DDG’s instant answers API in SmartSearch</figcaption>
 </figure>
 
 <figure class="float-right">
-<img src="https://farm4.staticflickr.com/3680/9054730095_dae56e86e6_z.jpg" alt="The gorgeous former Mozilla Paris office"/>
+<img src="../assets/my-decade-retrospective-of-the-internet/mozilla-paris-office.jpg" alt="The gorgeous former Mozilla Paris office"/>
 <figcaption>The former Mozilla Paris office</figcaption>
 </figure>
 
@@ -114,14 +114,14 @@ What remains diverse on the web today are the people in online communities like 
 
 Google+ was a failed attempt to compete with Facebook: “communities“ were similar to Facebook “pages“, while “circles” were similar to “friends”. It wasn’t mainstream, but many digital artists would post art on there since Google had a better image than Facebook in the tech sphere. This is where I got to know [Carlos Jeurissen](https://carlos.jeurissen.co/), the developer of the award-winning browser extension [Black Menu For Google](https://apps.jeurissen.co/black-menu-for-google) and a great human I had the chance of meeting in real life last year. He is a very experienced developer, to a point that while trying to solve a problem for his extension, he found a security bug in the Google APIs and got invited to a security meetup. He currently passionately lives off from freelance and extension work.
 
-Over the last decade, with the rise of online platforms, creating content online like YouTube videos (e.g. [Ryan Higa](https://www.youtube.com/user/nigahiga) who I started watching in 2010) or code have become things you can independently live off from. For others, it has become a hobby, like for [Taskin Forkan](https://www.deviantart.com/dakoder), who is today studying “Neuroscience & Psychology” and aims to become a doctor:
+Over the last decade, with the rise of online platforms, creating content online like YouTube videos (e.g. [Ryan Higa](https://www.youtube.com/user/nigahiga) who I started watching in 2010) or code have become things you can independently live off from. For others, it has become a hobby, like for [Taskin Forkan](https://www.deviantart.com/dakoder), who is studying “Neuroscience & Psychology” at the Johns Hopkins University and aims to become a doctor:
 
 > Nowadays the stuff I do in regards to coding is running websites for my university or stuff in my psychology lab where we use basic web design and java and matlab for various experiments. […] It’s so weird that for me all that stuff is still a hobby because that’s how I prefer it, yet somehow it still helps me out while working in unrelated fields.
 
 Through [Meetup](https://www.meetup.com) or [Mozilla events](https://wiki.mozilla.org/All_Hands), I’ve also met people in real life with the same interests. Overall, meeting such a diverse amount of profiles through those communities has shaped who I am today.
 
 <figure class="float-right">
-<img src="https://paper-attachments.dropbox.com/s_77ACDBB49F3DAA93787CF09D608219B0D12F474AC0EDAEC5F8EA0D5B87204EB4_1577160678318_image.png" alt="There are fewer than 20 days to prepare for Brexit"/>
+<img src="../assets/my-decade-retrospective-of-the-internet/brexit-ad.png" alt="There are fewer than 20 days to prepare for Brexit"/>
 <figcaption>Brexit advertisement in Bristol from October 2019, which still hasn’t happened</figcaption>
 </figure>
 
