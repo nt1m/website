@@ -74,7 +74,12 @@ This change in innovation models was partially a result of the rapid release mod
 
 # Faster software development
 
-In 2012, the first collaborative project I had ever done was [Online Windows 8](http://onlinewindows8.altervista.org), created with Taskin Forkan ([daKoder](https://www.deviantart.com/dakoder)), Anthony Nguyen ([link6155](https://www.deviantart.com/link6155)) and Sean Loper ([GrimmDev](https://www.deviantart.com/grimmdev/)). It’s not the project I’m the most proud of, but I got to learn how to collaborate through Dropbox as we noticed we were losing time sending each other ZIP files (we didn’t know about Git yet). Yet, despite the low quality of the project, it had received thousands of downloads on deviantART. Tech youtubers even [created videos to promote the project](https://www.youtube.com/watch?list=PLdn7yGD-OqWQj_h_2YBoSGxpDDPKEX_QN&v=TwMG3OgJ1vc). I had wondered why for quite a while, and then I recalled seeing comments complaining that this wasn’t actually a usable version of Windows 8. Many folks who downloaded the project were probably looking for online free cracked versions of Windows 8.
+In 2012, the first collaborative project I had ever done was [Online Windows 8](http://onlinewindows8.altervista.org), created with Taskin Forkan ([daKoder](https://www.deviantart.com/dakoder)), Anthony Nguyen ([link6155](https://www.deviantart.com/link6155)) and Sean Loper ([GrimmDev](https://www.deviantart.com/grimmdev/)). It’s not the project I’m the most proud of today, but I got to learn how to collaborate through Dropbox as we noticed we were losing time sending each other ZIP files (we didn’t know about Git yet). Yet, despite the low quality of the project, it had received thousands of downloads on deviantART. Tech youtubers even [created videos to promote the project](https://www.youtube.com/watch?list=PLdn7yGD-OqWQj_h_2YBoSGxpDDPKEX_QN&v=TwMG3OgJ1vc). I had wondered why for quite a while, and then I recalled seeing comments complaining that this wasn’t actually a usable version of Windows 8. Many folks who downloaded the project were probably looking for online free cracked versions of Windows 8:
+
+<figure>
+<img src="../assets/my-decade-retrospective-of-the-internet/online-windows-8-email.png" alt="Hello windows8team i need to download windows 8 html please"/>
+<figcaption>The need was there ;)</figcaption>
+</figure>
 
 This got me thinking about whether something like this would actually be successful today. Windows upgrades used to be paid for consumers a decade ago, until Windows 10 was released in 2015, when all updates from Windows 7/8 were delivered for free. Windows 10 was the very last major version of Windows, with all subsequent updates being much smaller and delivered very frequently “as a service”. This was a positive move as it would prevent businesses from being stuck on very old versions of Windows and allowed everyone to benefit from regular innovation.
 
@@ -118,7 +123,7 @@ Over the last decade, with the rise of online platforms, creating content online
 
 > Nowadays the stuff I do in regards to coding is running websites for my university or stuff in my psychology lab where we use basic web design and java and matlab for various experiments. […] It’s so weird that for me all that stuff is still a hobby because that’s how I prefer it, yet somehow it still helps me out while working in unrelated fields.
 
-Through [Meetup](https://www.meetup.com) or [Mozilla events](https://wiki.mozilla.org/All_Hands), I’ve also met people in real life with the same interests. Overall, meeting such a diverse amount of profiles through those communities has shaped who I am today.
+Through [Meetup](https://www.meetup.com) or [Mozilla events](https://wiki.mozilla.org/All_Hands), I’ve met people in real life with the same interests and many interesting profiles, which has largely shaped who I am today.
 
 <figure class="float-right">
 <img src="../assets/my-decade-retrospective-of-the-internet/brexit-ad.png" alt="There are fewer than 20 days to prepare for Brexit"/>
