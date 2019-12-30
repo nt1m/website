@@ -11,3 +11,11 @@ eleventyNavigationActiveKey: Blog
 </p>
 
 {{ content | safe }}
+
+<link rel="stylesheet" href="/assets/lightgallery/css/lightgallery.min.css">
+<script src="/assets/lightgallery/js/lightgallery.min.js"></script>
+<script>
+lightGallery(document.querySelector("main"), {
+  selector: "img"
+});
+</script>

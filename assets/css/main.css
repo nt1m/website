@@ -47,6 +47,9 @@ a:any-link:not(:hover) {
 img {
   max-width: 100%;
 }
+.tmpl-post img {
+  cursor: pointer;
+}
 blockquote {
   border-left: 2px solid;
   margin-left: 0;

@@ -6,6 +6,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginReadingTime = require("eleventy-plugin-reading-time");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItLinkifyImages = require("markdown-it-linkify-images");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -47,6 +48,8 @@ module.exports = function(eleventyConfig) {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
+  }).use(markdownItLinkifyImages, {
+    target: "_blank"
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
