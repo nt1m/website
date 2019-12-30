@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/prism-base16-monokai.dark.css' | url }}">
     {% if stylesheet %}<link rel="stylesheet" href="{{ stylesheet | url }}">{% endif %}
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
@@ -46,7 +46,7 @@ My interests include food, design, programming and web development. I also
 sometimes travel, bike or hike.
         </p>
       </div>
-      <img src="{{ '/assets/profile-picture.jpg' | url }}">
+      <img src="{{ '/assets/img/profile-picture.jpg' | url }}">
     </footer>
 {% endif %}
     <!-- Current page: {{ page.url | url }} -->

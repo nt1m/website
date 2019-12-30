@@ -6,11 +6,11 @@
   --border-color: rgba(255,255,255,0.2);
 }
 body {
-	background-image: radial-gradient(ellipse 100% 80% at bottom right, hsla(300, 100%, 62%, .2), hsla(300, 100%, 62%, 0)), radial-gradient(circle, #3992ca, #19497a);
+  background-image: radial-gradient(ellipse 100% 80% at bottom right, hsla(300, 100%, 62%, .2), hsla(300, 100%, 62%, 0)), radial-gradient(circle, #3992ca, #19497a);
   background-attachment: fixed;
 }
 h1 {
-	color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
 }
 
 #iframe {

@@ -20,7 +20,7 @@ It’s almost 2020 — the end of a decade — I’m about to be 20 and I’ve (
 
 # The web stack
 <figure class="float-right">
-<img src="../assets/my-decade-retrospective-of-the-internet/metrostart.png" alt="MetroStart, one of my first startpages"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/metrostart.png" alt="MetroStart, one of my first startpages"/>
 <figcaption>MetroStart, one of my first startpages</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Another technology we attempted to add to our online desktop was logging in to s
 
 
 <figure class="float-right">
-<img src="../assets/my-decade-retrospective-of-the-internet/20-year-old-commit-message.jpg" alt="Added the ability to drag splitters. If any build problems call me at: 650 224-0620"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/20-year-old-commit-message.jpg" alt="Added the ability to drag splitters. If any build problems call me at: 650 224-0620"/>
 <figcaption>20-year old commit message from the Mozilla source code</figcaption>
 </figure>
 
@@ -55,8 +55,8 @@ When I joined deviantART in 2011, I originally found [this start page](https://w
 Firefox also had a large customization ecosystem, it supported add-ons, userstyles and complete themes. My first XUL overlay add-on — then converted to Jetpack — was a simple button that leveraged the now defunct YouRepeat service. Customization was time consuming but it was very satisfying once you were done. Three years ago, my Firefox setup looked like this:
 
 <div class="flex">
-  <img src="../assets/my-decade-retrospective-of-the-internet/custom-firefox-1.jpg" class="grow">
-  <img src="../assets/my-decade-retrospective-of-the-internet/custom-firefox-2.png" class="grow">
+  <img src="../uploads/my-decade-retrospective-of-the-internet/custom-firefox-1.jpg" class="grow">
+  <img src="../uploads/my-decade-retrospective-of-the-internet/custom-firefox-2.png" class="grow">
 </div>
 
 
@@ -77,7 +77,7 @@ This change in innovation models was partially a result of the rapid release mod
 In 2012, the first collaborative project I had ever done was [Online Windows 8](http://onlinewindows8.altervista.org), created with Taskin Forkan ([daKoder](https://www.deviantart.com/dakoder)), Anthony Nguyen ([link6155](https://www.deviantart.com/link6155)) and Sean Loper ([GrimmDev](https://www.deviantart.com/grimmdev/)). It’s not the project I’m the most proud of today, but I got to learn how to collaborate through Dropbox as we noticed we were losing time sending each other ZIP files (we didn’t know about Git yet). Yet, despite the low quality of the project, it had received thousands of downloads on deviantART. Tech youtubers even [created videos to promote the project](https://www.youtube.com/watch?list=PLdn7yGD-OqWQj_h_2YBoSGxpDDPKEX_QN&v=TwMG3OgJ1vc). I had wondered why for quite a while, and then I recalled seeing comments complaining that this wasn’t actually a usable version of Windows 8. Many folks who downloaded the project were probably looking for online free cracked versions of Windows 8:
 
 <figure>
-<img src="../assets/my-decade-retrospective-of-the-internet/online-windows-8-email.png" alt="Hello windows8team i need to download windows 8 html please"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/online-windows-8-email.png" alt="Hello windows8team i need to download windows 8 html please"/>
 <figcaption>The need was there ;)</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ Faster update cycles might now be obvious today, but it is quite radical how the
 
 One thing that characterized this decade is the loss of product diversity on the internet, which led to the domination of the web by large companies. Exactly 9 years ago, I built my own search engine called [SmartSearch](http://smartsearch.altervista.org). The idea was largely copied from [Maxthon Multi Search](http://s.maxthon.com/): both sites allowed you to easily compare results from different search engines. While the idea by itself wasn’t super useful, my 10 year old mind somehow had an obsession in knowing all the search engines that existed out there, which is how I discovered Maxthon Multi Search. The Chinese web browser originally provided their feature [as a separate website](http://s.maxthon.com/) similarly to SmartSearch and later built-in the feature into Maxthon 3.
 
-<img alt="Maxthon multi search in Maxthon 3" src="../assets/my-decade-retrospective-of-the-internet/multi-search.png" class="float-right" style="max-width: 40%">
+<img alt="Maxthon multi search in Maxthon 3" src="../uploads/my-decade-retrospective-of-the-internet/multi-search.png" class="float-right" style="max-width: 40%">
 
 
 Maxthon’s [main pitch for the multi search](https://www.youtube.com/watch?v=5e2_njWFAKM) feature was being able to compare results across engines which may be useful to compare prices between different shopping search engines like Amazon or ebay. This feature is no longer present in the latest version of the web browser. This may show two things, the slow monopolization of search engines (Google for search, Amazon for shopping) but also Google’s aggregated information display reducing the need of browsing the sites themselves. While this does provide a lot of convenience, it does also seem scary for the health of the internet.
@@ -97,12 +97,12 @@ Maxthon’s [main pitch for the multi search](https://www.youtube.com/watch?v=5e
 However, while developing SmartSearch, I was able to leverage open data from [DuckDuckGo’s instant answers API](https://duckduckgo.com/api) from which I made [a small library](https://github.com/nt1m/InfoCards.js). It provides Google-style knowledge card data when searching for terms. Seeing alternatives to Google openly sharing their results gives me hope for the health of the internet. DuckDuckGo’s results are in fact provided by Bing just like Ecosia’s results are, which is a great initiative from Microsoft.
 
 <figure>
-<img src="../assets/my-decade-retrospective-of-the-internet/duckduckgo-smartsearch.png" alt="Integration of DDG’s instant answers API in SmartSearch"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/duckduckgo-smartsearch.png" alt="Integration of DDG’s instant answers API in SmartSearch"/>
 <figcaption>Integration of DDG’s instant answers API in SmartSearch</figcaption>
 </figure>
 
 <figure class="float-right">
-<img src="../assets/my-decade-retrospective-of-the-internet/mozilla-paris-office.jpg" alt="The gorgeous former Mozilla Paris office"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/mozilla-paris-office.jpg" alt="The gorgeous former Mozilla Paris office"/>
 <figcaption>The former Mozilla Paris office</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Over the last decade, with the rise of online platforms, creating content online
 Through [Meetup](https://www.meetup.com) or [Mozilla events](https://wiki.mozilla.org/All_Hands), I’ve met people in real life with the same interests and many interesting profiles, which has largely shaped who I am today.
 
 <figure class="float-right">
-<img src="../assets/my-decade-retrospective-of-the-internet/brexit-ad.png" alt="There are fewer than 20 days to prepare for Brexit"/>
+<img src="../uploads/my-decade-retrospective-of-the-internet/brexit-ad.png" alt="There are fewer than 20 days to prepare for Brexit"/>
 <figcaption>Brexit advertisement in Bristol from October 2019, which still hasn’t happened</figcaption>
 </figure>
 

@@ -124,8 +124,8 @@ body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.
 }
 .nav-item-active::after {
   content: "";
-  -webkit-mask: url(../assets/arrow-dropdown.svg) no-repeat center;
-  mask: url(../assets/arrow-dropdown.svg) no-repeat center;
+  -webkit-mask: url(../img/arrow-dropdown.svg) no-repeat center;
+  mask: url(../img/arrow-dropdown.svg) no-repeat center;
   background-color: currentColor;
   display: inline-block;
   margin-inline-start: 1ch;
@@ -160,16 +160,16 @@ body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.
   background-color: currentColor;
 }
 #media-twitter::after {
-  -webkit-mask-image: url(/assets/twitter.svg);
-  mask-image: url(/assets/twitter.svg);
+  -webkit-mask-image: url(../img/twitter.svg);
+  mask-image: url(../img/twitter.svg);
 }
 #media-linkedin::after {
-  -webkit-mask-image: url(/assets/linkedin.svg);
-  mask-image: url(/assets/linkedin.svg);
+  -webkit-mask-image: url(../img/linkedin.svg);
+  mask-image: url(../img/linkedin.svg);
 }
 #media-github::after {
-  -webkit-mask-image: url(/assets/github.svg);
-  mask-image: url(/assets/github.svg);
+  -webkit-mask-image: url(../img/github.svg);
+  mask-image: url(../img/github.svg);
 }
 
 /** Posts **/
@@ -200,8 +200,8 @@ body:not(.not-found) .nav-wrapper:not(:hover):not(:focus-within) .nav-item:not(.
 }
 .postlist-link[target="_blank"]::after {
   content: "";
-  -webkit-mask: url(../assets/open-in-new.svg) no-repeat center;
-  mask: url(../assets/open-in-new.svg) no-repeat center;
+  -webkit-mask: url(../img/open-in-new.svg) no-repeat center;
+  mask: url(../img/open-in-new.svg) no-repeat center;
   background-color: currentColor;
   width: 1em;
   height: 1em;
