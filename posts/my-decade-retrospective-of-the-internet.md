@@ -119,7 +119,7 @@ What remains diverse on the web today are the people in online communities like 
 
 Google+ was a failed attempt to compete with Facebook: “communities“ were similar to Facebook “pages“, while “circles” were similar to “friends”. It wasn’t mainstream, but many digital artists would post art on there since Google had a better image than Facebook in the tech sphere. This is where I got to know [Carlos Jeurissen](https://carlos.jeurissen.co/), the developer of the award-winning browser extension [Black Menu For Google](https://apps.jeurissen.co/black-menu-for-google) and a great human I had the chance of meeting in real life last year. He is a very experienced developer, to a point that while trying to solve a problem for his extension, he found a security bug in the Google APIs and got invited to a security meetup. He currently passionately lives off from freelance and extension work.
 
-Over the last decade, with the rise of online platforms, creating content online like YouTube videos (e.g. [Ryan Higa](https://www.youtube.com/user/nigahiga) who I started watching in 2010) or code have become things you can independently live off from. For others, it has become a hobby, like for [Taskin Forkan](https://www.deviantart.com/dakoder), who is studying “Neuroscience & Psychology” at the Johns Hopkins University and aims to become a doctor:
+Over the last decade, with the rise of online platforms, creating content online like YouTube videos (e.g. [Ryan Higa](https://www.youtube.com/user/nigahiga) who I started watching in 2010) or code have become things you can independently live off from. For others, it has become a hobby, like for [Taskin Forkan](https://www.deviantart.com/dakoder) (who I worked together on Altaica) who is studying “Neuroscience & Psychology” at the Johns Hopkins University and aims to become a doctor:
 
 > Nowadays the stuff I do in regards to coding is running websites for my university or stuff in my psychology lab where we use basic web design and java and matlab for various experiments. […] It’s so weird that for me all that stuff is still a hobby because that’s how I prefer it, yet somehow it still helps me out while working in unrelated fields.
 
@@ -130,7 +130,7 @@ Through [Meetup](https://www.meetup.com) or [Mozilla events](https://wiki.mozill
 <figcaption>Brexit advertisement in Bristol from October 2019, which still hasn’t happened</figcaption>
 </figure>
 
-Despite the good things online communities have brought, the UK got into this Brexit mess and Trump got elected, partially due to internet fake news or bots that led to indirect election meddling targeting older generations, widening the pre-existing generational gap. Hopefully, the future will see more legislation correcting this, like [Twitter’s recent move to ban political ads](https://twitter.com/jack/status/1189634360472829952).
+Despite how amazingly online communities was able to connect people together or even gave people a purpose, maybe it connected them too much by creating echo chambers? The UK got into this Brexit mess and Trump got elected, partially due to internet fake news or bots that led to indirect election meddling targeting older generations, widening the pre-existing generational gap. Hopefully, the future will see more legislation correcting this, like [Twitter’s recent move to ban political ads](https://twitter.com/jack/status/1189634360472829952).
 
 
 # Takeaways
